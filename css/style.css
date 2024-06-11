@@ -292,11 +292,11 @@ figure {
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; 
-          background-color: rgba(15, 14, 14, 0.459);} }
+          background-color: rgba(33, 29, 29, 0.459);} }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
-          color: rgb(255, 255, 255);
+          color: rgb(18, 17, 17);
           font-family: "Playfair Display", Georgia, serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
@@ -305,8 +305,9 @@ figure {
           font-weight: 700; 
         }
           @media screen and (max-width: 768px) {
-            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
-              font-size: 28px; } }
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 ,#colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+              font-size: 28px;
+            color: #fff ; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           font-size: 18px;
           line-height: 1.5;
@@ -336,15 +337,19 @@ figure {
           border: none;
           font-weight: 400; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
-            color: #fff;
-            border: 1px solid #fff;
+            color: green;
+            border: 2px solid green;
             background: transparent !important; }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
-              border: 1px solid #000 !important; }
+              border: 1px solid rgb(225, 11, 118) !important;
+            color: rgb(225, 11, 118) !important; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
-              width: 100%; } }
+              width: 100%; 
+              color: #fff !important;
+              border: 2px solid #fff !important;
+          } }
 
 body.offcanvas {
   overflow-x: hidden; }
